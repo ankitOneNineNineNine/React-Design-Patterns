@@ -7,6 +7,7 @@ import { Lists } from "./Provider";
 import { ControlledInput } from "./Controlled";
 import { ChangeWindowSize } from "./Hooks";
 import { ContainerView } from "./Component-View";
+import { ConditionalRendering } from "./Conditionally-Rendering";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       <ChangeWindowSize />
       <h1>Container-View Pattern</h1>
       <ContainerView />
+      <h1>Conditional-Rendering Pattern</h1>
+      <ConditionalRendering />
     </div>
   );
 }
