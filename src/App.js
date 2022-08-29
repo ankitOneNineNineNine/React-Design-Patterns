@@ -6,7 +6,7 @@ import { ListProviders } from "./Provider/Provider";
 import { Lists } from "./Provider";
 import { ControlledInput } from "./Controlled";
 import { ChangeWindowSize } from "./Hooks";
-import { ContainerView } from "./Component-View";
+import { ContainerView } from "./Container-View";
 import { ConditionalRendering } from "./Conditionally-Rendering";
 
 function App() {
